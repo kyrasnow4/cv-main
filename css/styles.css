@@ -1,7 +1,7 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     color: hsl(213, 6%, 32%);
 }
 
@@ -15,7 +15,7 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: #A7BBC7;
-    font-size: 200%;
+    font-size: 2rem;
     padding-bottom: 10px;
 }
 
@@ -26,6 +26,7 @@ h3 {
 
 p {
     line-height: 2;
+    font-size: 1.2rem;
 }
 
 hr {
