@@ -2,54 +2,43 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: hsl(213, 6%, 32%);
 }
 
 h1 {
-    margin-top: 0;
-    font-size: 450%;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
     font-family: 'Zeyada', cursive;
-    color: hsl(204, 20%, 50%);
+    color: #A7BBC7;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: hsl(204, 20%, 50%);
+    color: #A7BBC7;
     font-size: 200%;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #A7BBC7;
-    font-size: 150%;
+    color: hsl(204, 20%, 50%);
 }
 
 p {
-    color: hsl(213, 6%, 32%);
-    padding: 0 1em 2em
+    line-height: 2;
 }
 
-a {
-    color: hsl(213, 6%, 32%);
-    text-decoration: none;
-    padding: 10px;
+hr {
+    border: dotted #FAF3F3 10px;
+    border-bottom: none;
+    width: 10%;
+    margin: 75px auto;
 }
 
 .dark {
     color: hsl(213, 6%, 32%);
 }
 
-a:hover {
-    color: #A7BBC7;
-}
-
-.bubbles {
-    border-color: #DA7F8F;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 10px;
-    width: 15%;
-    padding-bottom: 10px;
-}
 
 .top {
     background-color: #FAF3F3;
@@ -57,17 +46,9 @@ a:hover {
     padding-top: 10%;
 }
 
-.middle {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.bottom {
-    background-color: #DA7F8F;
-    margin: 1em 0 0;
-    padding: 20px;
-    position: relative;
+.dev {
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .top-cloud {
@@ -87,33 +68,96 @@ a:hover {
     padding-top: 20%;
 }
 
-.btn {
-    background-color: hsl(204, 20%, 50%);
-    padding-right: 30px;
-    padding-left: 30px;
-    border-radius: 3px;
+.profile {
+    margin: 100px auto;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
 }
 
 .jpn {
-    font-weight: bold;
     font-size: 120%;
+    color: hsl(213, 6%, 32%);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jpn:hover {
+    color: #A7BBC7;
+}
+
+.middle {
+    background-color: white;
+    margin: 75px 0;
+}
+
+.skill-row {
+    width: 55%;
+    margin: 50px auto 150px;
+    text-align: left;
+}
+
+.skill-row-bottom {
+    width: 55%;
+    margin: 0 auto 150px;
+    text-align: left;
+}
+
+.left-circ {
+    float: left;
+    margin-right: 30px;
+}
+
+.right-circ {
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 40px auto 60px;
 }
 
 .chibi {
-    padding-bottom: 5%;
+    margin: 40px auto 100px;
+}
+
+.btn {
+    background-color: #A7BBC7;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background-color: hsl(204, 20%, 50%);
+    color: white;
+}
+
+.bottom {
+    background-color: #DA7F8F;
+    padding: 50px 0 20px;
+    position: relative;
 }
 
 .footer-link {
-    padding: 0 5%;
+    margin: 10px 20px;
+    color: hsl(213, 6%, 32%);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover {
+    color: #FAF3F3;
 }
 
 .copyright {
-    padding-top: 3%;
-    padding-bottom: 0;
-}
-
-.profile {
-    padding-top: 10px;
+    padding: 20px 0;
+    color: #FAF3F3;
+    font-size: .75em;
 }
 
 .meeting {
