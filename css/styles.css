@@ -24,10 +24,6 @@ h3 {
     color: hsl(204, 20%, 50%);
 }
 
-.profpic { 
-    margin-bottom: 20px;
-}
-
 p {
     line-height: 2;
     font-size: 1.2rem;
@@ -74,7 +70,7 @@ hr {
 }
 
 .profile {
-    margin: 100px auto 50px auto;
+    margin: 80px auto 50px auto;
 }
 
 .intro {
