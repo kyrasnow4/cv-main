@@ -3,15 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Kyra Snow</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Zeyada&display=swap"
         rel="stylesheet">
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class= "top_nav">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Information</a>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">Contact Me</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Phone Number: 520-270-9768</p>
+                    <p>Email Address: kyrasnow4@gmail.com</p>
+                    <a class="btn" href="mailto:kyrasnow4@gmail.com">Send Direct Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Side Projects</a>
+                                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="exampleModalLabel">Just a couple examples:</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a class="side-link" target="_blank" href="MushBloom/index.html">This is a link to a sample product site.</a>
+                            <img class="side-img" src="First Birthday Invitation.png">
+                            <img class="side-img" src="Baby Shower Invitation.png">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </nav>
     <div class="top">
         <img class="top-cloud" src="cloud_.png" alt="cloud-img">
         <h1>I'm Kyra.</h1>
@@ -23,41 +78,41 @@
     <div class="middle">
         <div class="profile">
             <h2>Hello.</h2>
-            <p class="intro">I am a multimedia web developer based in Arizona. I enjoy a nice day inside with some
-                coffee ☕, or an
-                adventure outside exploring nature 🌳. <br><br>
-                <a class="jpn" href="welcome.html">はじめまして。よろしくお願いします。</a>
-            </p>
+            <p class="intro">I am a multimedia web developer based in Arizona. I enjoy a nice day inside with some coffee ☕, or an adventure outside exploring nature 🌳. </p>
         </div>
-        <hr>
         <div class="skills">
             <h2>My Skills.</h2>
             <div class="skill-row">
                 <img class="left-circ" src="left_circle.png" alt="cirles">
                 <h3>The technical stuff.</h3>
-                <p>I have quite a few years of experience working in front and back-end web development. My skills were both self-taught and cultivated on the job.</p>
+                <p>I have quite a few years of experience working in front and back-end web development. My skills were
+                    both self-taught and cultivated on the job.</p>
             </div>
             <div class="skill-row-bottom">
                 <img class="right-circ" src="right_circle.png" alt="cirles">
                 <h3>The creative stuff.</h3>
-                <p>I primarily use Adobe Photoshop and Illustrator to create graphics. I have professional experience creating flowsheets and editing graphics, but I also like to make art on my own time.</p>
+                <p>I primarily use Adobe Photoshop and Illustrator to create graphics. I have professional experience
+                    creating flowsheets and editing graphics, but I also like to make art on my own time.</p>
             </div>
         </div>
-        <hr>
-        <div>
+        <div class="bottom_mess">
             <h2>Get In Touch</h2>
-            <h3>If you're interested, I'm interested.</h3>
-            <p class="contact-me">Feel free to send a message, whether it be for a project, a potential job position, or just
+            <div class="hover_img">
+                <a href=""><h3>Let's do this thing.</h3><span><img class="hover-gif" src="LetsDoThis.gif" alt="image" height="100" /></span></a>
+           </div>
+            
+            <p class="contact-me">Feel free to send a message, whether it be for a project, a potential job position, or
+                just
                 to say hello.</p>
             <img class="chibi" src="chibi_desk.gif" alt="chibi desk"><br>
-            <a class="btn" href="mailto:kyrasnow4@gmail.com">CONTACT ME</a>
+            <!-- <a class="btn" href="mailto:kyrasnow4@gmail.com">CONTACT ME</a> -->
         </div>
     </div>
 
     <div class="bottom">
         <a class="footer-link" target="_blank"
             href="https://www.linkedin.com/in/kyra-brinsfield-a45799112/">LinkedIn</a>
-        <a class="footer-link" target="_blank" download="resume" href="kbrinsfield_resume.pdf">Resume</a>
+        <a class="footer-link" target="_blank" download="Brinsfield Resume" href="kbrinsfield_resume.pdf">Resume</a>
         <a class="footer-link" target="_blank" href="https://github.com/kyrasnow4">GitHub</a>
         <p class="copyright">© 2023 Kyra Brinsfield.</p>
     </div>
