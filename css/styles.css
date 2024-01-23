@@ -16,7 +16,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     color: #A7BBC7;
     font-size: 2rem;
-    padding-bottom: 10px;
+    padding-bottom: 2%;
 }
 
 h3 {
@@ -33,13 +33,57 @@ hr {
     border: dotted #ffc6c6 10px;
     border-bottom: none;
     width: 10%;
-    margin: 75px auto;
+    margin: 5% auto;
 }
 
 .dark {
     color: hsl(213, 6%, 32%);
 }
 
+/* Navigation Bar */
+
+.top_nav {
+    background-color: #FAF3F3;
+    padding: 3% 5%;
+}
+
+.navbar {
+    padding: 0 0 3rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+}
+
+.side-img {
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.side-link {
+    font-size: 1.2rem;
+    color: #DA7F8F;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.side-link:hover {
+    color: hsl(204, 20%, 50%);
+}
 
 .top {
     background-color: #FAF3F3;
@@ -52,16 +96,23 @@ hr {
     font-weight: normal;
 }
 
+@keyframes topcloud {
+    from {right:40%; top:10%;}
+    to {right:0%; top:10%}
+}
 .top-cloud {
     position: absolute;
-    right: 15%;
-    top: 10%;
+    animation: topcloud 2.5s linear 0s 1 normal forwards;
+}
+
+@keyframes bottomcloud {
+    from {left:40%; bottom:60%;}
+    to {left:0%; bottom:60%}
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 15%;
-    bottom: 60%;
+    animation: bottomcloud 2.5s linear 0s 1 normal forwards;
 }
 
 .mountains {
@@ -70,7 +121,7 @@ hr {
 }
 
 .profile {
-    margin: 80px auto 50px auto;
+    margin: 5% auto 5% auto;
 }
 
 .intro {
@@ -121,6 +172,33 @@ hr {
     margin-left: 30px;
 }
 
+.bottom_mess {
+    margin: 5% auto 5% auto;
+}
+
+.hover_img { 
+    position:relative; 
+    text-decoration: none;
+}
+
+.hover_img { 
+    position:absolute; 
+    display:none; 
+    z-index:99; 
+    
+}
+
+.hover_img:hover { 
+    display:block; 
+}
+
+.hover-gif {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
 .contact-me {
     width: 50%;
     margin: 40px auto 60px;
@@ -131,16 +209,16 @@ hr {
 }
 
 .btn {
-    background-color: #A7BBC7;
+    background-color: white;
     padding: 10px 30px;
     border-radius: 3px;
-    color: white;
+    color: #DA7F8F;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover {
-    background-color: hsl(204, 20%, 50%);
+    background-color: #DA7F8F;
     color: white;
 }
 
